@@ -2,21 +2,45 @@
 
 A Flutter application that fetches user data from the [DummyJSON API](https://dummyjson.com/users) and displays it in a list. This project demonstrates how to make HTTP requests using Dio, parse JSON data, implement error handling, and cache data locally using `shared_preferences`.
 
+---
+
 ## Features
 
-- Fetch user data from the [DummyJSON API](https://dummyjson.com/users).
-- Display user details such as name, age, email, and profile image.
-- Navigate to a details page to view more information about a selected user.
-- Cache user data locally using `shared_preferences` for offline access.
-- Display a loading indicator while fetching data.
-- Handle errors gracefully with proper error messages.
+- **Fetch User Data**:
+  - Fetches user data from the [DummyJSON API](https://dummyjson.com/users).
+  - Displays user details such as name, age, email, and profile image.
+
+- **View User Details**:
+  - Navigate to a details page to view more information about a selected user.
+  - Caches only the users whose details have been viewed (no duplicates).
+
+- **Profile Page**:
+  - Displays a list of users whose details have been viewed.
+  - Allows clearing the cache to remove all viewed users.
+
+- **Error Handling**:
+  - Displays error messages if the API call fails or if no cached users are found.
+
+- **Loading Indicator**:
+  - Shows a loading indicator while fetching data.
+    
+-  **Avoiding Duplicates**:
+   - Added a note about how the app avoids caching duplicate users.
+     
+-  **Clear Cache Feature**:
+   - Added a section explaining how the cache can be cleared from the **Profile Page**.
+     
+---
 
 ## Output:
 
+![Screenshot 2025-01-14 223408](https://github.com/user-attachments/assets/4d9a40f8-900e-4260-ad04-dad97d5af4ea)
+![Screenshot 2025-01-14 223421](https://github.com/user-attachments/assets/99826485-f4a2-4e8f-a8fb-0fd0214f07b4)
+![Screenshot 2025-01-14 224407](https://github.com/user-attachments/assets/697fe8da-785f-4811-a730-e0c444e338bc)
+![Screenshot 2025-01-14 224432](https://github.com/user-attachments/assets/e0fe253f-89d6-484c-8c44-a67c859afb5c)
+![Screenshot 2025-01-14 224419](https://github.com/user-attachments/assets/7eeb7fc4-3d39-4b98-a8c6-a3bb3c8f9e93)
+![Screenshot 2025-01-14 224512](https://github.com/user-attachments/assets/c90ebcaa-0383-4e06-9621-be807ba6dac9)
+
+https://github.com/user-attachments/assets/39ecab6d-8349-4475-9746-04420ea0b495
 
 
-![Screenshot 2025-01-14 212711](https://github.com/user-attachments/assets/1b8e6206-f7b0-40e7-b0f9-daea93c6fa42)
-
-![Screenshot 2025-01-14 212721](https://github.com/user-attachments/assets/9a54e8de-544d-48e6-b50c-9813bf9474fd)
-![Screenshot 2025-01-14 212732](https://github.com/user-attachments/assets/67601d30-ed8a-4439-9ad3-bd74d95b14bc)
-![Screenshot 2025-01-14 212747](https://github.com/user-attachments/assets/375451da-7f00-443a-94cc-02002f6404e5)
