@@ -1,16 +1,22 @@
-# data_handel
+# User Data Handling App
 
-A new Flutter project.
+A Flutter application that fetches user data from the [DummyJSON API](https://dummyjson.com/users) and displays it in a list. This project demonstrates how to make HTTP requests using Dio, parse JSON data, implement error handling, and cache data locally using `shared_preferences`.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetch user data from the [DummyJSON API](https://dummyjson.com/users).
+- Display user details such as name, age, email, and profile image.
+- Navigate to a details page to view more information about a selected user.
+- Cache user data locally using `shared_preferences` for offline access.
+- Display a loading indicator while fetching data.
+- Handle errors gracefully with proper error messages.
 
-A few resources to get you started if this is your first Flutter project:
+## Output:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![Screenshot 2025-01-14 212711](https://github.com/user-attachments/assets/1b8e6206-f7b0-40e7-b0f9-daea93c6fa42)
+
+![Screenshot 2025-01-14 212721](https://github.com/user-attachments/assets/9a54e8de-544d-48e6-b50c-9813bf9474fd)
+![Screenshot 2025-01-14 212732](https://github.com/user-attachments/assets/67601d30-ed8a-4439-9ad3-bd74d95b14bc)
+![Screenshot 2025-01-14 212747](https://github.com/user-attachments/assets/375451da-7f00-443a-94cc-02002f6404e5)
